@@ -87,7 +87,7 @@ export const DashboardPage = () => {
   return (
     <section className="dashboard-page">
       <SearchForm />
-      <Table data={joinedData} />
+      <Table data={sortedData} />
     </section>
   );
 };
