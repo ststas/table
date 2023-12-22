@@ -1,0 +1,40 @@
+.nothing-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 149px;
+}
+
+.nothing-found__title {
+  color: var(--element-color-1);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 70px;
+  padding: 24px 0;
+  margin-bottom: 37px;
+}
+
+.nothing-found__button {
+  width: 95px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background: var(--element-color-5);
+  padding: 5px 0;
+  color: var(--secondary-bg-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: 0.2s;
+}
+.nothing-found__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

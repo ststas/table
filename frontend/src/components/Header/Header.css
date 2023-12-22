@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 41px 52px 0 48px;
+}
+
+.header__title {
+  color: var(--element-color-1);
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.header__subtitle {
+  margin-top: 4px;
+  color: var(--element-color-1);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}

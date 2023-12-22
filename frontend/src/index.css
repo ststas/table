@@ -1,0 +1,46 @@
+@import './assets/fonts/fonts.css';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  --primary-bg-color: #fafafa;
+  --secondary-bg-color: #ffffff;
+
+  --element-color-1: #222222;
+  --element-color-2: #474747;
+  --element-color-3: #5c5c5c;
+  --element-color-4: #999999;
+  --element-color-5: #1bda9d;
+  --element-color-6: #ff8346;
+  --element-color-7: #fe4848;
+  --element-color-8: #7d7d7d;
+  --element-color-9: #ebebeb;
+  --element-color-10: #d1d1d1;
+
+  --table-border-color-1: #e14165;
+  --table-border-color-2: #c2c2ff;
+  --table-border-color-3: #8686ff;
+  scroll-behavior: smooth;
+}
+
+.page {
+  font-family: 'Montserrat', 'Roboto', 'Nunito', Arial, sans-serif;
+  background: var(--primary-bg-color, #fafafa);
+  width: 100%;
+  max-width: 1054px;
+  margin-inline: auto;
+}
+
+.root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
