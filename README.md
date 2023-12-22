@@ -1,4 +1,4 @@
-# Kameleon Test by Stanislav Zaitsev
+# Kameleoon Test by Stanislav Zaitsev
 
 ## To run
 
